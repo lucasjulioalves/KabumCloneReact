@@ -1,0 +1,38 @@
+.shopContainer {
+    width: 1440px;
+    &__header {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        height: 4.375rem;
+        padding: 0.625rem 4.5rem;
+        background: rgb(255, 101, 0);
+
+        &__title {
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        &__timer {
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__image {
+        height: 310px;
+        position: relative;
+        z-index: -1;
+    }
+
+    &__content {
+        height: 3440px;
+        background: white;
+    }
+}

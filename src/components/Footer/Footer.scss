@@ -1,3 +1,34 @@
 .footer {
-    height: 700px;
+    &__header {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        min-height: 5.625rem;
+        background: rgb(0, 58, 106);
+    }
+    &__links {
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding: 2rem 0px;
+        background: rgb(0, 77, 142);
+        height: 470px;
+    }
+    &__badges {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        height: 4.875rem;
+        background-color: white;
+    }
+
+    &__info {
+        background: rgb(0, 58, 106);
+        width: 100%;
+        padding: 1rem 0px;
+    }
 }
