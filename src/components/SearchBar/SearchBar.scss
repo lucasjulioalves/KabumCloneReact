@@ -1,0 +1,15 @@
+.SearchBar {
+    display: flex;
+    align-items: center;
+    &__inputText {
+        border-radius: 5px;
+        padding: 10px;
+        border: 0;
+        min-width: 500px;
+    }
+
+    &__searchLogo {
+        margin-left: -30px;
+        cursor: pointer;
+    }
+}

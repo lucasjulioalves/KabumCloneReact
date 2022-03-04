@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "id" : 1,
+            "title": "Processador 1",
+            "total_value": 1752.02,
+            "total_value_with_discount": 1149.90,
+            "rating": 4.90,
+            "discount_percentage": 25,
+            "remaining_amount": 44
+        },
+        {
+            "id" : 2,
+            "title": "Processador 2",
+            "total_value": 1752.02,
+            "total_value_with_discount": 1149.90,
+            "rating": 4.90,
+            "discount_percentage": 25,
+            "remaining_amount": 44
+        },
+        {
+            "id" : 3,
+            "title": "Processador 1",
+            "total_value": 1752.02,
+            "total_value_with_discount": 1149.90,
+            "rating": 4.90,
+            "discount_percentage": 25,
+            "remaining_amount": 44
+        },
+        {
+            "id" : 4,
+            "title": "Processador 1",
+            "total_value": 1752.02,
+            "total_value_with_discount": 1149.90,
+            "rating": 4.90,
+            "discount_percentage": 25,
+            "remaining_amount": 44
+        },
+        {
+            "id" : 5,
+            "title": "Processador 1",
+            "total_value": 1752.02,
+            "total_value_with_discount": 1149.90,
+            "rating": 4.90,
+            "discount_percentage": 25,
+            "remaining_amount": 44
+        }
+    ],
+    "menu": [
+        {
+            "id": 1,
+            "title": "a1",
+            "route" : "/route",
+            "menu": [
+                {
+                    "id" : 2,
+                    "title": "a1",
+                    "route" : "/route"
+                },
+                {
+                    "id" : 3,
+                    "title": "a2",
+                    "route" : "/route"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "a1",
+            "route" : "/route",
+            "menu": [
+                {
+                    "id" : 2,
+                    "title": "a2",
+                    "route" : "/route"
+                },
+                {
+                    "id" : 3,
+                    "title": "a3",
+                    "route" : "/route"
+                }
+            ]
+        }        
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

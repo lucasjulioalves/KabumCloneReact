@@ -1,0 +1,15 @@
+.TopBarContainer {
+    width: 100vw;
+    display: flex;
+    height: 112px;
+    justify-content: center;
+    background: rgb(0, 96, 177);
+    align-items: center;
+    .TopSearchContainer {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        
+    }
+}
