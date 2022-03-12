@@ -1,21 +1,14 @@
 import "./Footer.scss";
+import FooterBadges from "./FooterBadges/FooterBadges";
+import FooterHeader from "./FooterHeader/FooterHeader";
+import FooterInfo from "./FooterInfo/FooterInfo";
+import FooterLinks from "./FooterLinks/FooterLinks";
 const Footer = () => {
     return <div className="footer"> 
-        <div className="footer__header">
-        
-        </div>
-
-        <div className="footer__links">
-
-        </div>
-
-        <div className="footer__badges">
-
-        </div>
-
-        <div className="footer__info">
-            
-        </div>
+        <FooterHeader />
+        <FooterLinks />
+        <FooterBadges />
+        <FooterInfo />
     </div>
 }
 

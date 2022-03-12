@@ -1,5 +1,5 @@
-import SearchBar from '../SearchBar/SearchBar';
-import TopBarMenu from '../TopBarMenu/TopBarMenu';
+import SearchBar from './SearchBar/SearchBar';
+import TopBarMenu from './TopBarMenu/TopBarMenu';
 import './TopBar.scss';
 import {ReactComponent as Logo} from '../../assets/logo-kabum.svg';
 

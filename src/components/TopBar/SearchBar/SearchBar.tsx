@@ -1,4 +1,4 @@
-import {ReactComponent as SearchLogo} from '../../assets/searchicon.svg';
+import {ReactComponent as SearchLogo} from '../../../assets/searchicon.svg';
 import './SearchBar.scss';
 
 const SearchBar = () => {
