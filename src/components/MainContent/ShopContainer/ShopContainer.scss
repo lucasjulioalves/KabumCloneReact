@@ -1,8 +1,13 @@
 .shopContainer {
     width: 1440px;
-    &__mainProducts {
+    &__content {
         height: 3440px;
         background: #F2F3F4;
         padding: 30px 56px 20px 56px;
+    }
+
+    &__mainProducts {
+        display: flex;
+        justify-content: space-between;
     }
 }

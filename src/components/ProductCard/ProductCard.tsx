@@ -1,9 +1,13 @@
+import ProductCardBottom from "./ProcuctCardBottom/ProductCardBottom";
 import "./ProductCard.scss";
-import ProductCardModel from "./ProductCard.interface";
+import ProductCardContent from "./ProductCardContent/ProductCardContent";
+import ProductCardTop from "./ProductCardTop/ProductCardTop";
 
 const ProductCard = () => {
-    return <div className="productCardContainer"> 
-
+    return <div className="productCard"> 
+        <ProductCardTop />
+        <ProductCardContent />
+        <ProductCardBottom />
     </div>
 }
 

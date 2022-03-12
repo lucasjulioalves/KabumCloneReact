@@ -1,4 +1,4 @@
-interface ProductCardModel {
+interface IProductCard {
     title: string,
     totalValue: number,
     totalValueWithDiscount: number,
@@ -7,4 +7,4 @@ interface ProductCardModel {
     remainingAmount: number
 }
 
-export default ProductCardModel;
+export default IProductCard;

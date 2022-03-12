@@ -7,8 +7,15 @@ const ShopContainer = () => {
     return <div className="shopContainer">
         <ShopContainerImage />
         <ShopContainerTopBar />
-        <div className="shopContainer__mainProducts">
+        <div className="shopContainer__content">
+            <div className="shopContainer__mainProducts">
             <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            </div>
+
         </div>
     </div>
 }
