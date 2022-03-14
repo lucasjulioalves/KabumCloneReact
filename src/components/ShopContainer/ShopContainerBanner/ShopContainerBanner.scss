@@ -1,0 +1,9 @@
+.shopContainerBanner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    padding: 32px 0px;
+    &__img{
+        cursor: pointer;
+    }
+}

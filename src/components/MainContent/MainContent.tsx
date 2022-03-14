@@ -1,5 +1,5 @@
 
-import ShopContainer from "./ShopContainer/ShopContainer";
+import ShopContainer from "../ShopContainer/ShopContainer";
 import "./MainContent.scss";
 
 const MainContent = () => {

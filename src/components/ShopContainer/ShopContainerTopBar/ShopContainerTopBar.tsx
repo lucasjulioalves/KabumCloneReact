@@ -1,5 +1,5 @@
 import './ShopContainerTopBar.scss';
-import Timer from "../Timer/Timer";
+import Timer from "../../Timer/Timer";
 
 const ShopContainerTopBar = () => {
     return <div className="topBarContainer">

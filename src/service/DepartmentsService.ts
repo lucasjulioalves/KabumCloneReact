@@ -1,13 +1,13 @@
 import apiConstants from "../constant/ApiConstants";
 import FetchService from "./FetchService";
 
-class ProductService {
+class DepartmentsService {
 
     _service: FetchService = new FetchService();
 
-    fetchMainProducts() {
-        return this._service.fetch(apiConstants.products.v1.main)
+    fetchDeparments() {
+        return this._service.fetch(apiConstants.deparments.v1.main);
     }
 }
 
-export default ProductService;
+export default DepartmentsService;
