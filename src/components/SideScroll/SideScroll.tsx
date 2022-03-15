@@ -2,10 +2,12 @@ import "./SideScroll.scss"
 
 type Props = {
     children?: JSX.Element | JSX.Element[];
+    size : number;
 }
 
-const SideScroll = ({children} : Props) => {
-    return <div>
+const SideScroll = ({children, size = 720} : Props) => {
+
+    return <div className="sideScroll">
         {children}
     </div>
 }

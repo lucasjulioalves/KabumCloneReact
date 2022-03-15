@@ -1,4 +1,5 @@
 import './ShopContainerDepartments.scss';
+
 const ShopContainerDepartments = () => {
     return <div className='shopContainerDeparments'>
 

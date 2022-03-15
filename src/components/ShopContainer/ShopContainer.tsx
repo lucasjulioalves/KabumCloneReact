@@ -5,18 +5,19 @@ import ShopContainerBanner from "./ShopContainerBanner/ShopContainerBanner";
 
 import "./ShopContainer.scss";
 import ShopContainerDepartments from "./ShopContainerDepartments/ShopContainerDepartments";
+import SideScroll from "../SideScroll/SideScroll";
 const ShopContainer = () => {
     return <div className="shopContainer">
         <ShopContainerImage />
         <ShopContainerTopBar />
         <div className="shopContainer__content">
-            <div className="shopContainer__mainProducts">
+            <SideScroll size={720}>
                 <ProductCard />
                 <ProductCard />
                 <ProductCard />
                 <ProductCard />
                 <ProductCard />
-            </div>
+            </SideScroll>
             <div>
                 <a href="3" className="shopContainer__allOffers">Todas as ofertas</a>
             </div>

@@ -82,6 +82,84 @@
             ]
         }        
     ],
+    "departments": [
+        {
+            "title" : "serviços digitais",
+            "route" : ""
+        },
+        {
+            "title" : "eletrodomésticos",
+            "route" : ""
+        },
+        {
+            "title" : "instrumento musical",
+            "route" : ""
+        },
+        {
+            "title" : "áudio",
+            "route" : ""
+        },
+        {
+            "title" : "automotivo",
+            "route" : ""
+        },
+        {
+            "title" : "conectividade",
+            "route" : ""
+        },
+        {
+            "title" : "projetores",
+            "route" : ""
+        },
+        {
+            "title" : "smart home",
+            "route" : ""
+        },
+        {
+            "title" : "geek",
+            "route" : ""
+        },
+        {
+            "title" : "brinquedos",
+            "route" : ""
+        },
+        {
+            "title" : "cuidados pessoais",
+            "route" : ""
+        },
+        {
+            "title" : "casa & jardim",
+            "route" : ""
+        },
+        {
+            "title" : "esporte e lazer",
+            "route" : ""
+        },
+        {
+            "title" : "automação",
+            "route" : ""
+        },
+        {
+            "title" : "ferramentas",
+            "route" : ""
+        },
+        {
+            "title" : "eletroportáteis",
+            "route" : ""
+        },
+        {
+            "title" : "ar condicionado e ventilação",
+            "route" : ""
+        },
+        {
+            "title" : "bebês",
+            "route" : ""
+        },
+        {
+            "title" : "móveis",
+            "route" : ""
+        }
+    ],
     "profile": {
         "name": "typicode"
     }
